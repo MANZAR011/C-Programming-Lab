@@ -1,2 +1,2 @@
-# C-Programming-Lab
-A repository for C programming lab exercises and assignments.
+  # C-Programming-Lab
+This repository is for C programming lab exercises and assignments.
