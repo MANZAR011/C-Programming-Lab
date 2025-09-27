@@ -1,0 +1,113 @@
+#include <stdio.h>
+int main() {
+    int course;
+    char grade;
+    printf("Enter course number (1, 2, or 3): ");
+    scanf("%d", &course);
+    printf("Enter the grade for this course ('A', 'B', 'C', 'D',or 'F'): ");
+    scanf(" %c", &grade);
+    switch(course){
+    	case 1 :
+    		switch(grade){
+    			case 'A' :
+    			case 'a' :
+    				printf("You got an A in course 1. Excellent!");
+    				break;
+    				
+    			case 'B' :
+    			case 'b' :
+    				printf("You got a B in course 1. Very well!");
+    				break;
+    				
+    			case 'C' :
+    			case 'c' :
+    				printf("You got a C in course 1. Need for improvement.");
+    				break;
+    				
+    			case 'D' :
+    			case 'd' :
+    				printf("You got a D in course 1. Performed poorly.");
+    				break;
+    				
+    			case 'F' :
+    			case 'f' :
+    				printf("You got an F in course 1. You need to reappear for the exam.");
+    				break;
+    				
+    			default:
+    				printf("Please enter a valid grade for course 1.");
+    				break;
+    				
+			}
+			break;
+			
+		case 2 :
+			switch(grade){
+    			case 'A' :
+    			case 'a' :
+    				printf("You got an A in course 2. Excellent!");
+    				break;
+    				
+    			case 'B' :
+    			case 'b' :
+    				printf("You got a B in course 2. Very well!");
+    				break;
+    				
+    			case 'C' :
+    			case 'c' :
+    				printf("You got a C in course 2. Need for improvement.");
+    				break;
+    				
+    			case 'D' :
+    			case 'd' :
+    				printf("You got a D in course 2. Performed poorly.");
+    				break;
+    				
+    			case 'F' :
+    			case 'f' :
+    				printf("You got an F in course 2. You need to reappear for the exam.");
+    				break;
+    			
+    			default:
+    				printf("Please enter a valid grade for course 2.");
+    				break;
+			}
+			break;
+			
+		case 3 :
+			switch(grade){
+    			case 'A' :
+    			case 'a' :
+    				printf("You got an A in course 3. Excellent!");
+    				break;
+    				
+    			case 'B' :
+    			case 'b' :
+    				printf("You got a B in course 3. Very well!");
+    				break;
+    				
+    			case 'C' :
+    			case 'c' :
+    				printf("You got a C in course 3. Need for improvement.");
+    				break;
+    				
+    			case 'D' :
+    			case 'd' :
+    				printf("You got a D in course 3. Performed poorly.");
+    				break;
+    				
+    			case 'F' :
+    			case 'f' :
+    				printf("You got an F in course 3. You need to reappear for the exam.");
+    				break;
+    				
+    			default:
+    				printf("Please enter a valid grade for course 3.");
+    				break;
+			}
+			break;
+			default:
+				printf("Please enter a valid course.");
+					}
+}
+
